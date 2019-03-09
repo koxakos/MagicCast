@@ -1,102 +1,45 @@
 {
-  "name": "magic cast",
-  "version": "2.1.3",
-  "description": "Magic Cast allows you to play videos on your TV from websites, including movies, TV shows, news broadcasts, sports broadcasts and IPTV.",
-  "author": {
-    "name": "koxakos",
-    "email": "support@iptvbox.top"
-  },
-  "scripts": {
-    "start": "magsdk",
-    "build": "magsdk build",
-    "watch": "magsdk watch",
-    "serve": "magsdk serve",
-    "lint": "eslint .",
-    "test": "npm run lint"
-  },
-  "dependencies": {
-    "magcore-plugin-ufs-json": "^2.*.*",
-    "magcore-core": "^3.0.0"
-  },
-  "repository": {
-		"type": "git",
-		"url": "https://github.com/koxakos/MagicCast.git"
-	},
-  "config": {
-    "name": "MAGIC CAST",
-    "description": "Magic Cast allows you to play videos on your TV from websites, including movies, TV shows, news broadcasts, sports broadcasts and IPTV.",
-    "type": "app",
-    "category": "app",
-    "uris": {
-      "app": "/",
-      "entry": "index.html",
-      "icons": {
-        "480": {
-          "logoNormal": "img/480/normal.png",
-          "logoActive": "img/480/active.png"
-        },
-        "576": {
-          "logoNormal": "img/576/normal.png",
-          "logoActive": "img/576/active.png"
-        },
-        "720": {
-          "logoNormal": "img/720/normal.png",
-          "logoActive": "img/720/active.png"
-        },
-        "1080": {
-          "logoNormal": "img/1080/normal.png",
-          "logoActive": "img/1080/active.png"
-        }
-      }
+    "name": "MagicCast",
+    "date": "2017.10.19",
+    "version": "1.1.2",
+    "description": "The first Russian free video provider with a licensed full-length content.",
+    "author": {
+        "name": "StalkerApps"
     },
-    "colors": {
-      "splashFont": "#fff",
-      "splashBackground": "#005eb3"
-    }
-  },
-  "devDependencies": {
-    "cjs-emitter": "^1.5.0",
-    "cjs-wamp": "^1.3.0",
-    "eslint": "3.*.*",
-    "mag-app": "^1.0.6",
-    "mag-component-footer": "^2.0.2",
-    "mag-component-layout-list": "^1.1.0",
-    "mag-component-modal": "^1.0.6",
-    "mag-eslint-config": "1.*.*",
-    "spa-gettext": "1.*.*",
-    "spa-preloader": "^1.4.0",
-    "stb-component-page": "1.*.*",
-    "stb-component-scrollbar": "^1.0.0",
-    "stb-keys": "^1.4.0",
-    "stv-app": "^1.0.7",
-    "tzn-app": "^1.1.5",
-    "webos-app": "^1.0.2"
-  },
-  "_id": "magcore-app-magic-cast@2.1.3",
-  "dist": {
-    "shasum": "a37cb7e0eaa726d7ded6134f11e3cb8721260d62",
-    "tarball": "https://registry.npmjs.org/magcore-app-magic-cast/-/magcore-app-magic-cast-2.1.3.tgz",
-    "fileCount": 66,
-    "unpackedSize": 410018
-  },
-  "_from": "magcore-app-magic-cast@2.1.3",
-  "_resolved": "http://registry.npmjs.org/magcore-app-magic-cast/-/magcore-app-magic-cast-2.1.3.tgz",
-  "_shasum": "a37cb7e0eaa726d7ded6134f11e3cb8721260d62",
-  "_npmVersion": "3.5.2",
-  "_nodeVersion": "4.2.6",
-  "_npmUser": {
-    "name": "infomir",
-    "email": "darkpark.infomir@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "infomir",
-      "email": "darkpark.infomir@gmail.com"
-    }
-  ],
-  "directories": {},
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/magcore-app-magic-cast_2.1.3_1519140825524_0.5224916148569265"
-  }
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/koxakos/MagicCast.git"
+    },
+    "config": {
+        "type": "app",
+        "category": "apps",
+        "backgroundColor": "#e60040",
+        "name": "Ivi",
+        "legacy": true,
+        "description": "The first Russian free video provider with a licensed full-length content.",
+        "icons": {
+            "paths": {
+                "480": "img/480/",
+                "576": "img/576/",
+                "720": "img/720/",
+                "1080": "img/1080/"
+            },
+            "states": {
+                "normal": "normal.png",
+                "active": "active.png"
+            }
+        },
+        "options": [
+            {
+                "name": "partner",
+                "desc": "partner server url"
+            }
+        ]
+    },
+    "options": [
+        {
+            "name": "partner",
+            "desc": "partner server url"
+        }
+    ]
 }
