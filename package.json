@@ -26,7 +26,7 @@
     "name": "MAGIC CAST",
     "description": "Magic Cast allows you to play videos on your TV from websites, including movies, TV shows, news broadcasts, sports broadcasts and IPTV.",
     "type": "app",
-    "category": "media",
+    "category": "app",
     "uris": {
       "app": "/",
       "entry": "index.html",
