@@ -1,0 +1,39 @@
+{
+	"meta": {
+		"charset": "utf-8",
+		"project": "magcore-app-magic-cast 1.0.2",
+		"language": "pt",
+		"plural": "(n != 1)"
+	},
+	"data": {
+		"": {
+			"Actions": "",
+			"April": "",
+			"August": "",
+			"Cancel": "",
+			"December": "",
+			"Delete": "",
+			"Device ID:": "",
+			"Download": "",
+			"Error :(": "",
+			"Exit app ?": "",
+			"February": "",
+			"Install the Magic Cast extension in Chrome, Firefox, Opera, Firefox for Android": "",
+			"January": "",
+			"July": "",
+			"June": "",
+			"MAGIC CAST": "",
+			"Magic Cast allows you to play videos on your TV from websites, including movies, TV shows, news broadcasts, sports broadcasts and IPTV.": "",
+			"March": "",
+			"May": "",
+			"November": "",
+			"October": "",
+			"Ok": "",
+			"September": "",
+			"Specify the device ID in the extension settings": "",
+			"Start viewing — send the link": "",
+			"The application icon will turn blue as soon as a video appears on the page, which you can send — click on it": "",
+			"Videos to play": ""
+		}
+	}
+}
